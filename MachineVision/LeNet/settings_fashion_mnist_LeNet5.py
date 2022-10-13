@@ -1,13 +1,14 @@
+# download directory
+DOWNLOAD_DIR = "../../data/"
+
 # output directory name:
-OUTPUT_DIR = "../my_models/"
+PATH_SAVE_MODEL = "../../models/"
 
 # model save
-NAME = "fashion_mnist_h5"
-SAVE_FORMAT = "h5"
+FILENAME = 'fashion_mnist_pytorch'
 
 # training
-# EPOCHS = 10
-EPOCHS = 20  # just for training
+EPOCHS = 40
 
 BATCH_SIZE = 128
 
